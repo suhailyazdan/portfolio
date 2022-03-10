@@ -10,7 +10,7 @@ function App() {
           <div className='row h-100'>
             <div className='col-3'>
               <div className="leftPanel py-3">
-                <div className='d-flex flex-column align-items-center justify-content-center p-3'>
+                <div className='d-flex flex-column align-items-center justify-content-center p-3 text-center'>
                   <div className='myPicBox d-flex justify-content-center mb-2'>
                     <img src={myPic} alt="Suhail Yazdan" />
                   </div>
