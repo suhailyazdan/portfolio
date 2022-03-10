@@ -8,15 +8,38 @@ const Navbar = () => {
         <Link to="/" className='navItem'>
           <div className='title'>Home</div>
 
-          <div className='iconCircle ms-auto me-3'>
-
-          </div>
+          <div className='iconCircle ms-auto me-2'></div>
         </Link>
-        <Link to="/about" className='navItem'>About Me</Link>
-        <Link to="/skills" className='navItem'>Skills</Link>
-        <Link to="/services" className='navItem'>Services</Link>
-        <Link to="/portfolio" className='navItem'>Portfolio</Link>
-        <Link to="/contactme" className='navItem'>Contact Me</Link>
+
+        <Link to="/about" className='navItem'>
+          <div>About Me</div>
+          
+          <div className='iconCircle ms-auto me-2'></div>
+        </Link>
+
+        <Link to="/skills" className='navItem'>
+          <div>Skills</div>
+        
+          <div className='iconCircle ms-auto me-2'></div>
+        </Link>
+
+        <Link to="/services" className='navItem'>
+          <div>Services</div>
+          
+          <div className='iconCircle ms-auto me-2'></div>
+        </Link>
+
+        <Link to="/portfolio" className='navItem'>
+          <div>Portfolio</div>
+
+          <div className='iconCircle ms-auto me-2'></div>
+        </Link>
+        
+        <Link to="/contactme" className='navItem'>
+          <div>Contact Me</div>
+        
+          <div className='iconCircle ms-auto me-2'></div>        
+        </Link>
     </div>
   )
 }
